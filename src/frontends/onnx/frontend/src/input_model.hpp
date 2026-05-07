@@ -7,6 +7,7 @@
 #include <editor.hpp>
 #include <filesystem>
 #include <fstream>
+#include <unordered_map>
 
 #include "core/place.hpp"
 #include "core/tensor.hpp"
@@ -104,7 +105,7 @@ class InputModel : public ov::frontend::InputModel {
     std::shared_ptr<InputModelONNXImpl> _impl;
 
     std::vector<std::shared_ptr<ov::frontend::onnx::OpPlace>> get_op_places() const;
-    std::map<std::string, std::shared_ptr<ov::frontend::onnx::TensorONNXPlace>>& get_tensor_places() const;
+    std::unordered_map<std::string, std::shared_ptr<ov::frontend::onnx::TensorONNXPlace>>& get_tensor_places() const;
 
 public:
     using Ptr = std::shared_ptr<unify::InputModel>;

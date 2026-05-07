@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{33CBC0CB-5552-36D1-B999-D2D25B0FD6A3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>openvino_onnx_common</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Administrator\Desktop\Preetha\openvino\bin\intel64\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">openvino_onnx_common.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">openvino_onnx_commond</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Administrator\Desktop\Preetha\openvino\bin\intel64\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">openvino_onnx_common.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">openvino_onnx_common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Administrator\Desktop\Preetha\openvino\bin\intel64\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">openvino_onnx_common.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">openvino_onnx_common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Administrator\Desktop\Preetha\openvino\bin\intel64\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">openvino_onnx_common.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">openvino_onnx_common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src;C:\Users\Administrator\Desktop\Preetha\openvino\src\core\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\inference\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\paddle\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\pytorch\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow_lite\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\common\util\include;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\pugixml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Administrator/Desktop/Preetha/openvino/thirdparty/onnx/onnx" /external:I "C:/Users/Administrator/Desktop/Preetha/openvino/thirdparty/protobuf/protobuf/src" /bigobj /utf-8 /d1trimfile:C:\Users\Administrator\Desktop\Preetha\openvino\ /d1trimfile:C:/Users/Administrator/Desktop/Preetha/openvino/</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SDLCheck>true</SDLCheck>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;OV_BUILD_POSTFIX="d";OV_NATIVE_PARENT_PROJECT_ROOT_DIR="openvino";IN_OV_COMPONENT;OV_THREAD=OV_THREAD_TBB_ADAPTIVE;ONNX_NAMESPACE=openvino_onnx;ONNX_ML=1;ONNX_USE_LITE_PROTO=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;OV_BUILD_POSTFIX=\"d\";OV_NATIVE_PARENT_PROJECT_ROOT_DIR=\"openvino\";IN_OV_COMPONENT;OV_THREAD=OV_THREAD_TBB_ADAPTIVE;ONNX_NAMESPACE=openvino_onnx;ONNX_ML=1;ONNX_USE_LITE_PROTO=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src;C:\Users\Administrator\Desktop\Preetha\openvino\src\core\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\inference\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\paddle\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\pytorch\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow_lite\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\common\util\include;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\pugixml\src;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\onnx\onnx;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\protobuf\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;OV_BUILD_POSTFIX="d";OV_NATIVE_PARENT_PROJECT_ROOT_DIR="openvino";IN_OV_COMPONENT;OV_THREAD=OV_THREAD_TBB_ADAPTIVE;ONNX_NAMESPACE=openvino_onnx;ONNX_ML=1;ONNX_USE_LITE_PROTO=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src;C:\Users\Administrator\Desktop\Preetha\openvino\src\core\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\inference\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\paddle\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\pytorch\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow_lite\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\common\util\include;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\pugixml\src;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\onnx\onnx;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\protobuf\protobuf\src;%(IncludePaths)</IncludePaths>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src;C:\Users\Administrator\Desktop\Preetha\openvino\src\core\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\inference\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\paddle\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\pytorch\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow_lite\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\common\util\include;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\pugixml\src;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\onnx\onnx;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\protobuf\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src;C:\Users\Administrator\Desktop\Preetha\openvino\src\core\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\inference\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\paddle\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\pytorch\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow_lite\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\common\util\include;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\pugixml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Administrator/Desktop/Preetha/openvino/thirdparty/onnx/onnx" /external:I "C:/Users/Administrator/Desktop/Preetha/openvino/thirdparty/protobuf/protobuf/src" /bigobj /utf-8 /d1trimfile:C:\Users\Administrator\Desktop\Preetha\openvino\ /d1trimfile:C:/Users/Administrator/Desktop/Preetha/openvino/</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <DisableSpecificWarnings>4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SDLCheck>true</SDLCheck>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;OV_BUILD_POSTFIX="";OV_NATIVE_PARENT_PROJECT_ROOT_DIR="openvino";IN_OV_COMPONENT;OV_THREAD=OV_THREAD_TBB_ADAPTIVE;ONNX_NAMESPACE=openvino_onnx;ONNX_ML=1;ONNX_USE_LITE_PROTO=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;OV_BUILD_POSTFIX=\"\";OV_NATIVE_PARENT_PROJECT_ROOT_DIR=\"openvino\";IN_OV_COMPONENT;OV_THREAD=OV_THREAD_TBB_ADAPTIVE;ONNX_NAMESPACE=openvino_onnx;ONNX_ML=1;ONNX_USE_LITE_PROTO=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src;C:\Users\Administrator\Desktop\Preetha\openvino\src\core\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\inference\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\paddle\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\pytorch\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow_lite\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\common\util\include;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\pugixml\src;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\onnx\onnx;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\protobuf\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;OV_BUILD_POSTFIX="";OV_NATIVE_PARENT_PROJECT_ROOT_DIR="openvino";IN_OV_COMPONENT;OV_THREAD=OV_THREAD_TBB_ADAPTIVE;ONNX_NAMESPACE=openvino_onnx;ONNX_ML=1;ONNX_USE_LITE_PROTO=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src;C:\Users\Administrator\Desktop\Preetha\openvino\src\core\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\inference\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\paddle\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\pytorch\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow_lite\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\common\util\include;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\pugixml\src;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\onnx\onnx;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\protobuf\protobuf\src;%(IncludePaths)</IncludePaths>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src;C:\Users\Administrator\Desktop\Preetha\openvino\src\core\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\inference\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\paddle\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\pytorch\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow_lite\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\common\util\include;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\pugixml\src;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\onnx\onnx;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\protobuf\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src;C:\Users\Administrator\Desktop\Preetha\openvino\src\core\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\inference\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\paddle\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\pytorch\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow_lite\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\common\util\include;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\pugixml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Administrator/Desktop/Preetha/openvino/thirdparty/onnx/onnx" /external:I "C:/Users/Administrator/Desktop/Preetha/openvino/thirdparty/protobuf/protobuf/src" /bigobj /utf-8 /d1trimfile:C:\Users\Administrator\Desktop\Preetha\openvino\ /d1trimfile:C:/Users/Administrator/Desktop/Preetha/openvino/</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <DisableSpecificWarnings>4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SDLCheck>true</SDLCheck>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;OV_BUILD_POSTFIX="";OV_NATIVE_PARENT_PROJECT_ROOT_DIR="openvino";IN_OV_COMPONENT;OV_THREAD=OV_THREAD_TBB_ADAPTIVE;ONNX_NAMESPACE=openvino_onnx;ONNX_ML=1;ONNX_USE_LITE_PROTO=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;OV_BUILD_POSTFIX=\"\";OV_NATIVE_PARENT_PROJECT_ROOT_DIR=\"openvino\";IN_OV_COMPONENT;OV_THREAD=OV_THREAD_TBB_ADAPTIVE;ONNX_NAMESPACE=openvino_onnx;ONNX_ML=1;ONNX_USE_LITE_PROTO=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src;C:\Users\Administrator\Desktop\Preetha\openvino\src\core\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\inference\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\paddle\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\pytorch\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow_lite\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\common\util\include;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\pugixml\src;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\onnx\onnx;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\protobuf\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;OV_BUILD_POSTFIX="";OV_NATIVE_PARENT_PROJECT_ROOT_DIR="openvino";IN_OV_COMPONENT;OV_THREAD=OV_THREAD_TBB_ADAPTIVE;ONNX_NAMESPACE=openvino_onnx;ONNX_ML=1;ONNX_USE_LITE_PROTO=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src;C:\Users\Administrator\Desktop\Preetha\openvino\src\core\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\inference\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\paddle\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\pytorch\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow_lite\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\common\util\include;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\pugixml\src;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\onnx\onnx;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\protobuf\protobuf\src;%(IncludePaths)</IncludePaths>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src;C:\Users\Administrator\Desktop\Preetha\openvino\src\core\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\inference\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\paddle\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\pytorch\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow_lite\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\common\util\include;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\pugixml\src;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\onnx\onnx;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\protobuf\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src;C:\Users\Administrator\Desktop\Preetha\openvino\src\core\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\inference\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\paddle\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\pytorch\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow_lite\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\common\util\include;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\pugixml\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Administrator/Desktop/Preetha/openvino/thirdparty/onnx/onnx" /external:I "C:/Users/Administrator/Desktop/Preetha/openvino/thirdparty/protobuf/protobuf/src" /bigobj /utf-8 /d1trimfile:C:\Users\Administrator\Desktop\Preetha\openvino\ /d1trimfile:C:/Users/Administrator/Desktop/Preetha/openvino/</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SDLCheck>true</SDLCheck>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;OV_BUILD_POSTFIX="";OV_NATIVE_PARENT_PROJECT_ROOT_DIR="openvino";IN_OV_COMPONENT;OV_THREAD=OV_THREAD_TBB_ADAPTIVE;ONNX_NAMESPACE=openvino_onnx;ONNX_ML=1;ONNX_USE_LITE_PROTO=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;OV_BUILD_POSTFIX=\"\";OV_NATIVE_PARENT_PROJECT_ROOT_DIR=\"openvino\";IN_OV_COMPONENT;OV_THREAD=OV_THREAD_TBB_ADAPTIVE;ONNX_NAMESPACE=openvino_onnx;ONNX_ML=1;ONNX_USE_LITE_PROTO=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src;C:\Users\Administrator\Desktop\Preetha\openvino\src\core\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\inference\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\paddle\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\pytorch\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow_lite\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\common\util\include;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\pugixml\src;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\onnx\onnx;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\protobuf\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;OV_BUILD_POSTFIX="";OV_NATIVE_PARENT_PROJECT_ROOT_DIR="openvino";IN_OV_COMPONENT;OV_THREAD=OV_THREAD_TBB_ADAPTIVE;ONNX_NAMESPACE=openvino_onnx;ONNX_ML=1;ONNX_USE_LITE_PROTO=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src;C:\Users\Administrator\Desktop\Preetha\openvino\src\core\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\inference\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\paddle\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\pytorch\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow_lite\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\common\util\include;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\pugixml\src;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\onnx\onnx;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\protobuf\protobuf\src;%(IncludePaths)</IncludePaths>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src;C:\Users\Administrator\Desktop\Preetha\openvino\src\core\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\inference\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\common\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\paddle\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\pytorch\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\tensorflow_lite\include;C:\Users\Administrator\Desktop\Preetha\openvino\src\common\util\include;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\pugixml\src;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\onnx\onnx;C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\protobuf\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Administrator/Desktop/Preetha/openvino/src/frontends/onnx/onnx_common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/Preetha/openvino -BC:/Users/Administrator/Desktop/Preetha/openvino --check-stamp-file C:/Users/Administrator/Desktop/Preetha/openvino/src/frontends/onnx/onnx_common/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Administrator\Desktop\Preetha\openvino\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Administrator/Desktop/Preetha/openvino/src/frontends/onnx/onnx_common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/Preetha/openvino -BC:/Users/Administrator/Desktop/Preetha/openvino --check-stamp-file C:/Users/Administrator/Desktop/Preetha/openvino/src/frontends/onnx/onnx_common/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Administrator\Desktop\Preetha\openvino\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Administrator/Desktop/Preetha/openvino/src/frontends/onnx/onnx_common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/Preetha/openvino -BC:/Users/Administrator/Desktop/Preetha/openvino --check-stamp-file C:/Users/Administrator/Desktop/Preetha/openvino/src/frontends/onnx/onnx_common/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Administrator\Desktop\Preetha\openvino\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Administrator/Desktop/Preetha/openvino/src/frontends/onnx/onnx_common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/Preetha/openvino -BC:/Users/Administrator/Desktop/Preetha/openvino --check-stamp-file C:/Users/Administrator/Desktop/Preetha/openvino/src/frontends/onnx/onnx_common/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Administrator\Desktop\Preetha\openvino\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src\onnx_model_validator.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src\parser.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src\utils.cpp" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include\onnx_common\onnx_model_validator.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include\onnx_common\parser.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include\onnx_common\utils.hpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\Preetha\openvino\ZERO_CHECK.vcxproj">
+      <Project>{F6D8CE3E-C88A-3A57-8F75-EEE1FD7F6EF5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\protobuf\protobuf\libprotobuf-lite.vcxproj">
+      <Project>{19998A95-0EAB-3B9C-813D-3227822F4F35}</Project>
+      <Name>libprotobuf-lite</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\onnx\onnx\onnx.vcxproj">
+      <Project>{7F8CD10F-0002-317D-B2E4-D26317E4B887}</Project>
+      <Name>onnx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\onnx\onnx\onnx_proto.vcxproj">
+      <Project>{1CB70AE5-2E38-361D-8962-0C121B0938BD}</Project>
+      <Name>onnx_proto</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\openvino.vcxproj">
+      <Project>{D05F13D7-768B-34F2-90D7-6335C656823B}</Project>
+      <Name>openvino</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\common\util\openvino_util.vcxproj">
+      <Project>{12075561-86DF-3329-A05C-76B2B44EC649}</Project>
+      <Name>openvino_util</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\Preetha\openvino\thirdparty\pugixml\pugixml-static.vcxproj">
+      <Project>{241F648E-59DC-320D-8939-703D3FB77C9B}</Project>
+      <Name>pugixml-static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

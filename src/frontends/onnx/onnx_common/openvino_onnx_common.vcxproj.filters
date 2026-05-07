@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src\onnx_model_validator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src\parser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\src\utils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include\onnx_common\onnx_model_validator.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include\onnx_common\parser.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\include\onnx_common\utils.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\onnx_common\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{A5C4A1A3-C06A-38A7-AA30-D05A6A7B9F84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{F6CAE07F-9D76-3707-88CC-3CC9BCD1F80D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -20,6 +20,10 @@ public:
         : m_input_model(input_model),
           m_names(names) {}
 
+    Place(const ov::frontend::InputModel& input_model, std::vector<std::string>&& names)
+        : m_input_model(input_model),
+          m_names(std::move(names)) {}
+
     explicit Place(const ov::frontend::InputModel& input_model) : Place(input_model, std::vector<std::string>{}) {}
 
     ~Place() override = default;
@@ -153,6 +157,11 @@ public:
                 const std::vector<std::string>& names);
 
     TensorPlace(const ov::frontend::InputModel& input_model,
+                ov::PartialShape&& pshape,
+                ov::element::Type type,
+                std::vector<std::string>&& names);
+
+    TensorPlace(const ov::frontend::InputModel& input_model,
                 const ov::PartialShape& pshape,
                 ov::element::Type type,
                 const std::vector<std::string>& names,
@@ -173,6 +182,9 @@ public:
     }
     void set_partial_shape(const PartialShape& pshape) {
         m_pshape = pshape;
+    }
+    void set_partial_shape(PartialShape&& pshape) {
+        m_pshape = std::move(pshape);
     }
     void set_element_type(const element::Type& type) {
         m_type = type;

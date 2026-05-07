@@ -179,6 +179,17 @@ TensorPlace::TensorPlace(const ov::frontend::InputModel& input_model,
 }
 
 TensorPlace::TensorPlace(const ov::frontend::InputModel& input_model,
+                         ov::PartialShape&& pshape,
+                         ov::element::Type type,
+                         std::vector<std::string>&& names)
+    : Place(input_model, std::move(names)),
+      m_pshape(std::move(pshape)),
+      m_type(type) {
+    const auto& stored_names = get_names();
+    m_operation_name = (stored_names.size() > 0) ? stored_names[0] : m_operation_name;
+}
+
+TensorPlace::TensorPlace(const ov::frontend::InputModel& input_model,
                          const ov::PartialShape& pshape,
                          ov::element::Type type,
                          const std::vector<std::string>& names,

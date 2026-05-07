@@ -528,6 +528,29 @@ void GraphIteratorProto::initialize(const std::filesystem::path& path) {
     }
 }
 
+void GraphIteratorProto::initialize(std::istream& stream, const std::filesystem::path& model_dir) {
+    m_model_dir = model_dir;
+    try {
+        m_model = std::make_shared<ModelProto>();
+        FRONT_END_GENERAL_CHECK(m_model->ParseFromIstream(&stream), "Model can't be parsed from stream");
+        if (m_model->has_graph()) {
+            fixup_legacy_nodes(*m_model);
+            topological_sort_graph(m_model->mutable_graph());
+            m_graph = &m_model->graph();
+        } else {
+            m_graph = nullptr;
+            return;
+        }
+    } catch (...) {
+        m_model.reset();
+        m_graph = nullptr;
+        node_index = 0;
+        m_decoders.clear();
+        m_tensors.clear();
+        throw;
+    }
+}
+
 void GraphIteratorProto::initialize(std::shared_ptr<ModelProto> model) {
     m_model = std::move(model);
     if (m_model && m_model->has_graph()) {

@@ -4,6 +4,7 @@
 
 #include "input_model.hpp"
 
+#include <unordered_map>
 #include <utility>
 
 #include "openvino/frontend/exception.hpp"
@@ -573,7 +574,7 @@ public:
     std::vector<std::shared_ptr<OpPlace>>& get_op_places() {
         return m_op_places;
     }
-    std::map<std::string, std::shared_ptr<TensorONNXPlace>>& get_tensor_places() {
+    std::unordered_map<std::string, std::shared_ptr<TensorONNXPlace>>& get_tensor_places() {
         return m_tensor_places;
     }
 
@@ -624,8 +625,8 @@ private:
     void clean_up();
 
     std::vector<std::shared_ptr<OpPlace>> m_op_places;
-    std::map<std::string, std::shared_ptr<OpPlace>> m_op_places_map;
-    std::map<std::string, std::shared_ptr<TensorONNXPlace>> m_tensor_places;
+    std::unordered_map<std::string, std::shared_ptr<OpPlace>> m_op_places_map;
+    std::unordered_map<std::string, std::shared_ptr<TensorONNXPlace>> m_tensor_places;
     std::vector<ov::frontend::Place::Ptr> m_inputs;
     std::vector<ov::frontend::Place::Ptr> m_outputs;
 
@@ -658,7 +659,7 @@ std::shared_ptr<ov::frontend::onnx::TensorONNXPlace> decode_tensor_place(
     const bool reuse_const_data) {
     auto tensor_place =
         std::make_shared<ov::frontend::onnx::TensorONNXPlace>(model,
-                                                              tensor_meta_info.m_partial_shape,
+                                                              ov::PartialShape(tensor_meta_info.m_partial_shape),
                                                               tensor_meta_info.m_element_type,
                                                               std::vector<std::string>{*tensor_meta_info.m_tensor_name},
                                                               tensor_meta_info.m_tensor_data,
@@ -678,7 +679,9 @@ void InputModel::InputModelONNXImpl::load_model() {
     // Track output indices separately from TensorPlace (handles duplicate output names correctly)
     std::vector<int64_t> output_indices;
 
-    m_op_places.reserve(m_graph_iterator->size());
+    const size_t iter_size = m_graph_iterator->size();
+    m_op_places.reserve(iter_size);
+    m_tensor_places.reserve(iter_size * 2);  // avoid rehash during load
     for (; !m_graph_iterator->is_end(); m_graph_iterator->next()) {
         const auto& decoder = m_graph_iterator->get_decoder();
 
@@ -802,17 +805,25 @@ std::shared_ptr<TensorONNXPlace> InputModel::InputModelONNXImpl::find_tensor_pla
 
 std::shared_ptr<TensorONNXPlace> InputModel::InputModelONNXImpl::ensure_tensor_place(
     const TensorMetaInfo& tensor_meta_info) {
-    if (auto existing = find_tensor_place(tensor_meta_info)) {
-        return existing;
+    if (!tensor_meta_info.m_tensor_name || tensor_meta_info.m_tensor_name->empty()) {
+        return nullptr;
     }
-    return register_tensor_place(decode_tensor_place(tensor_meta_info, m_input_model, m_reuse_const_data));
+    auto [it, inserted] = m_tensor_places.emplace(*tensor_meta_info.m_tensor_name, nullptr);
+    if (!inserted) {
+        return it->second;  // already existed — single lookup
+    }
+    // Cache miss — decode and store in the slot we already reserved
+    auto tensor_place = decode_tensor_place(tensor_meta_info, m_input_model, m_reuse_const_data);
+    it->second = tensor_place;
+    return tensor_place;
 }
 
 void InputModel::InputModelONNXImpl::connect_inputs(const std::shared_ptr<OpPlace>& op_place,
                                                     const std::shared_ptr<DecoderBaseOperation>& decoder) {
     const auto input_count = decoder->get_input_size();
     for (size_t i = 0; i < input_count; ++i) {
-        auto tensor_place = ensure_tensor_place(decoder->get_input_tensor_info(i));
+        const auto& tensor_info = decoder->get_input_tensor_info(i);
+        auto tensor_place = ensure_tensor_place(tensor_info);
         if (!tensor_place) {
             continue;
         }
@@ -822,11 +833,11 @@ void InputModel::InputModelONNXImpl::connect_inputs(const std::shared_ptr<OpPlac
         in_port->set_source_tensor(tensor_place);
         in_port->set_op(op_place);
 
-        std::string port_name = decoder->get_input_tensor_name(i);
-        if (port_name.empty()) {
-            port_name = "input_" + std::to_string(i);
-        }
-        op_place->add_in_port(in_port, port_name);
+        // Reuse tensor name from tensor_info — avoids second ORT API call
+        const std::string& port_name_ref = decoder->get_input_tensor_name(i);
+        op_place->add_in_port(in_port, port_name_ref.empty()
+            ? std::string("input_") + std::to_string(i)
+            : port_name_ref);
     }
 }
 
@@ -906,8 +917,9 @@ std::shared_ptr<TensorPlace> castToTensorPlace(const ov::frontend::Place::Ptr& p
 }
 
 ov::frontend::Place::Ptr InputModel::InputModelONNXImpl::get_place_by_tensor_name(const std::string& tensorName) const {
-    if (m_tensor_places.find(tensorName) != m_tensor_places.end())
-        return castToTensorPlace(m_tensor_places.at(tensorName));
+    auto it = m_tensor_places.find(tensorName);
+    if (it != m_tensor_places.end())
+        return castToTensorPlace(it->second);
     else
         return nullptr;
 }
@@ -1019,7 +1031,7 @@ std::vector<std::shared_ptr<ov::frontend::onnx::OpPlace>> InputModel::get_op_pla
     return _impl->get_op_places();
 }
 
-std::map<std::string, std::shared_ptr<ov::frontend::onnx::TensorONNXPlace>>& InputModel::get_tensor_places() const {
+std::unordered_map<std::string, std::shared_ptr<ov::frontend::onnx::TensorONNXPlace>>& InputModel::get_tensor_places() const {
     return _impl->get_tensor_places();
 }
 

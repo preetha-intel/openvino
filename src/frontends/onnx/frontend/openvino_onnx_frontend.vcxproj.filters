@@ -1,0 +1,911 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\attribute.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\decoder.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\decoder_proto.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\graph.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\graph_cache.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\graph_iterator.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\graph_iterator_proto.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\model.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\node.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\null_node.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\place.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\tensor.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\transform.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\detail\subgraph_extraction.cpp">
+      <Filter>src\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\edge_mapper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\editor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\exceptions.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\frontend.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\input_model.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\node_context.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\onnx_framework_node.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\abs.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\acos.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\acosh.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\adaptive_avg_pooling2d.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\add.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\affine.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\affine_grid.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\and.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\argmax.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\argmin.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\asin.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\asinh.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\atan.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\atanh.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\aten.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\average_pool.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\batch_norm.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\bitshift.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\bitwise_and.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\bitwise_not.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\bitwise_or.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\bitwise_xor.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\blackmanwindow.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\cast.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\cast_like.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\ceil.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\celu.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\center_crop_pad.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\clip.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\aliases.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\attention.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\bias_add.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\bias_gelu.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\dynamic_quantize_matmul.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\embed_layer_normalization.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\fast_gelu.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\fused_conv.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\fusedgemm.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\fusedmatmul.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\group_query_attention.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\matmul_integer_to_float.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\matmulnbits.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\pad.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\qlinear_activation.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\qlinear_concat.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\qlinear_ops.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\qlinear_where.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\quick_gelu.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\range.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\rotary_embedding.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\simplified_layer_normalization.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\skip_layer_normalization.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\com.microsoft\skip_simplified_layer_normalization.cpp">
+      <Filter>src\op\com.microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\compress.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\concat.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\constant.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\constant_fill.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\constant_of_shape.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\conv.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\conv_integer.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\conv_transpose.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\cos.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\cosh.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\crop.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\cum_sum.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\depth_to_space.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\dequantize_linear.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\dft.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\div.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\dropout.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\dynamic_quantize_linear.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\einsum.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\elu.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\equal.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\erf.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\exp.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\expand.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\eye_like.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\flatten.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\floor.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\gather.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\gather_elements.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\gather_nd.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\gelu.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\gemm.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\global_average_pool.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\global_max_pool.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\greater.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\greater_or_equal.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\grid_sample.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\group_normalization.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\gru.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\hammingwindow.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\hannwindow.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\hard_sigmoid.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\hard_swish.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\hardmax.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\identity.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\if.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\image_scaler.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\instance_norm.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\is_finite.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\is_inf.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\is_nan.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\layer_normalization.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\leaky_relu.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\less.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\less_or_equal.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\log.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\log_softmax.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\loop.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\lp_norm.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\lp_pool.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\lrn.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\lstm.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\matmul.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\matmul_integer.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\max.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\max_pool.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\max_roi_pool.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\mean.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\mean_variance_normalization.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\min.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\mish.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\mmdeploy_roi_align_rotated.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\mod.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\mul.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\multinomial.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\neg.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\neg_log_like_loss.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\nms_rotated.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\non_max_suppression.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\non_zero.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\not.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\onehot.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\or.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\org.openvinotoolkit\deformable_conv_2d.cpp">
+      <Filter>src\op\org.openvinotoolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\org.openvinotoolkit\detection_output.cpp">
+      <Filter>src\op\org.openvinotoolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\org.openvinotoolkit\experimental_detectron\detection_output.cpp">
+      <Filter>src\op\org.openvinotoolkit\experimental_detectron</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\org.openvinotoolkit\experimental_detectron\generate_proposals_single_image.cpp">
+      <Filter>src\op\org.openvinotoolkit\experimental_detectron</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\org.openvinotoolkit\experimental_detectron\prior_grid_generator.cpp">
+      <Filter>src\op\org.openvinotoolkit\experimental_detectron</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\org.openvinotoolkit\experimental_detectron\roi_feature_extractor.cpp">
+      <Filter>src\op\org.openvinotoolkit\experimental_detectron</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\org.openvinotoolkit\experimental_detectron\topk_rios.cpp">
+      <Filter>src\op\org.openvinotoolkit\experimental_detectron</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\org.openvinotoolkit\fake_quantize.cpp">
+      <Filter>src\op\org.openvinotoolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\org.openvinotoolkit\generate_proposals.cpp">
+      <Filter>src\op\org.openvinotoolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\org.openvinotoolkit\group_norm.cpp">
+      <Filter>src\op\org.openvinotoolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\org.openvinotoolkit\normalize.cpp">
+      <Filter>src\op\org.openvinotoolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\org.openvinotoolkit\prior_box.cpp">
+      <Filter>src\op\org.openvinotoolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\org.openvinotoolkit\swish.cpp">
+      <Filter>src\op\org.openvinotoolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\pad.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\pow.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\prelu.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\qlinear_conv.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\qlinear_matmul.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\quantize_linear.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\random_normal.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\random_normal_like.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\random_uniform.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\random_uniform_like.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\range.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\reciprocal.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\reduce.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\relu.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\reshape.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\resize.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\reverse_sequence.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\rnn.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\roi_align.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\round.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\scan.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\scatter_elements.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\scatter_nd.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\selu.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\sequence_at.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\shape.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\shrink.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\sigmoid.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\sign.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\sin.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\sinh.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\size.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\slice.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\softmax.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\softmax_cro_ent_loss.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\softplus.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\softsign.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\space_to_depth.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\split.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\split_to_sequence.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\sqrt.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\squeeze.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\stft.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\sub.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\sum.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\tan.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\tanh.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\thresholded_relu.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\tile.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\topk.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\transpose.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\trilu.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\unique.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\unsqueeze.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\upsample.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\where.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\op\xor.cpp">
+      <Filter>src\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\ops_bridge.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\place.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\translate_session.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\arg_min_max_factory.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\common.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\conv_factory.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\convpool.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\dft.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\norm.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\onnx_internal.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\pooling_factory.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\recurrent.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\reshape.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\split.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\tensor_external_data.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\attribute.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\decoder_proto.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\graph.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\graph_cache.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\graph_iterator_proto.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\model.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\node.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\null_node.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\operator_set.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\place.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\sparse_tensor.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\tensor.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\transform.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\core\value_info.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\detail\subgraph_extraction.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\edge_mapper.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\editor.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\editor_types.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\exceptions.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\input_model.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\onnx_framework_node.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\ops_bridge.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\place.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\precomp.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\translate_session.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\arg_min_max_factory.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\common.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\conv_factory.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\convpool.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\dft.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\norm.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\onnx_internal.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\pooling_factory.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\recurrent.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\reshape.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\split.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\tensor_external_data.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\utils\variadic.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\src\version_range.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include\openvino\frontend\onnx\decoder.hpp">
+      <Filter>public include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include\openvino\frontend\onnx\extension\conversion.hpp">
+      <Filter>public include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include\openvino\frontend\onnx\extension\op.hpp">
+      <Filter>public include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include\openvino\frontend\onnx\frontend.hpp">
+      <Filter>public include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include\openvino\frontend\onnx\graph_iterator.hpp">
+      <Filter>public include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include\openvino\frontend\onnx\node_context.hpp">
+      <Filter>public include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\include\openvino\frontend\onnx\visibility.hpp">
+      <Filter>public include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Administrator\Desktop\Preetha\openvino\src\frontends\onnx\frontend\vs_version.rc">
+      <Filter>src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{A5C4A1A3-C06A-38A7-AA30-D05A6A7B9F84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public include">
+      <UniqueIdentifier>{6B405EF7-6870-3B93-B9EA-DC29598A032E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{F6CAE07F-9D76-3707-88CC-3CC9BCD1F80D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{B877A8D2-4B0E-32BD-8C18-345B40857EFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\detail">
+      <UniqueIdentifier>{053623B7-3E32-35FD-8B6C-8F52A608E783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\op">
+      <UniqueIdentifier>{EEDAF3D2-0B03-3CCD-9447-8C01618D0CF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\op\com.microsoft">
+      <UniqueIdentifier>{4B72A611-F217-372F-9937-7BC7E99B0802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\op\org.openvinotoolkit">
+      <UniqueIdentifier>{8F2E97CE-5725-3CA1-8C1A-CC48F534090E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\op\org.openvinotoolkit\experimental_detectron">
+      <UniqueIdentifier>{F395D10C-77C3-3928-B19B-157B86BE22EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{256A063C-2BF4-314D-839F-12CC5CD0C296}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
